@@ -250,11 +250,12 @@ margin: -140px 5px 20px 5px;}
     
    
     .profile-image{
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("josh-mobile.jpg");
+            background:rgba(0, 0, 0, 0.5) url(josh-mobile.jpg);
+    background-blend-mode: darken;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
-        height: 480px;
+        height: 550px;
         z-index: -1;
         animation: fadeIn 4s;
         -webkit-animation: fadeIn 4s;
